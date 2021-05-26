@@ -116,7 +116,7 @@ metadata:
           },
           "spec": {
             "envVars": {
-              "AUTH_CLIENT_LIBRARY_URL": "https://sso.prod-preview.openshift.io/auth/js/keycloak.js",
+              "AUTH_CLIENT_LIBRARY_URL": "http://129.40.58.177:8082/auth/js/keycloak.js",
               "ENVIRONMENT": "dev",
               "IMAGE": "quay.io/codeready-toolchain/registration-service:60d3b74",
               "REPLICAS": "4"
